@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+
+
+body {
+    font-family: sans-serif;
+    background-color: yellow;
+    background-image: linear-gradient(to right, orange, red);
+}
+
+.nav-custom {
+    padding: 29px;
+    background-color: orange
+}
+
+.navbar-inner {
+    width: 100%;
+    margin: auto;
+}
+
+div {
+    column-gap: 20px;
+}
+
+main {
+    padding-top: 100px
+}
+
+
+
+/* .container {
+    margin-top: 150px;
+} */
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    background-color: linear-gradient(to right, orange, red);
+    opacity: .5;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 8px 16px;
+    width: 500px;
+    height: 70px;
+    border: 2px solid grey;
+    text-decoration: rgb(245, 245, 245);
+    font-size: 30px
+}
+
+.button-1:hover {
+    background-image: linear-gradient(90deg, #ffd902 0%, #FFCF00 49%, #fc9700 80%, #ff5100 100%);
+    animation: slidebg 5s linear infinite;
+}
+
+.button-2:hover {
+    background-image: linear-gradient(to right, rgb(255, 51, 0), rgb(255, 0, 0), rgb(0, 0, 0), rgb(255, 0, 0), rgb(255, 51, 0), rgb(255, 103, 1), rgb(255, 174, 0), rgb(255, 136, 0));
+    animation: slidebg 2s linear infinite;
+}
+
+.button-3:hover {
+    background-image: linear-gradient(to right, rgb(255, 81, 0), rgb(255, 30, 0), rgb(255, 0, 0), rgb(2, 0, 0), rgb(255, 0, 0), rgb(255, 30, 0), rgb(255, 81, 0));
+    animation: slidebg 2s linear infinite;
+}
+
+.button-4:hover {
+    background-image: linear-gradient(to right,
+            #fc7c05,
+            #fa4700,
+            #f83a00,
+            #ff0000,
+            #fc7c05,
+        );
+    animation: slidebg 2s linear infinite;
+}
+
+
+.button-5:hover {
+    background-image: linear-gradient(to right,
+            #fc7c05,
+            #fa4700 16.65%,
+            #f83a00 16.65%,
+            #ff0000 33.3%,
+            #030000 33.3%,
+            #ff0000 49.95%,
+            #f83a00 49.95%,
+            #fa4700 66.6%,
+            #fc7c05 66.6%);
+    animation: slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+.follow {
+    margin-top: 40px;
+}
+
+.follow a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+    background-color: #212529;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+tr {
+    border-bottom: 1px solid #2E3339;
+    border-top: 1px solid #2E3339;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border-bottom: 1px solid #2E3339;
+    border-top: 1px solid #2E3339;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none
+}
+
+/* th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #2E3339;
+} */
